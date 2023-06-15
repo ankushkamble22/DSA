@@ -1,0 +1,14 @@
+#include"../hdr/header.h"
+int main (void )
+{
+	int queue [ SIZE ];
+	int front = -1;
+	int rear = -1;
+	enque ( queue, front, rear);
+	return 0;
+}
+
+int enque ( int queue [ ], int front, int rear)
+{
+	printf ("Enter the element into queue\n");
+	 	
